@@ -36,9 +36,9 @@ const insertDummyData = async () => {
     table.unique("access_token");
   });
 
-  for (let j = 0; j < 100; j++) {
+  for (let j = 0; j < 5000000; j++) {
     let dummyData = [];
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 1; i++) {
       dummyData.push({
         first_name: faker.name.firstName(),
         last_name: faker.name.lastName(),
